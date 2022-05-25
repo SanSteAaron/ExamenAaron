@@ -55,7 +55,6 @@ namespace Deposito
                 retirado1 = CantidadARetirarDeAgua;
                 NivelDeAgua = NivelDeAgua - CantidadARetirarDeAgua;
             }
-
             return retirado1;
         }
 
