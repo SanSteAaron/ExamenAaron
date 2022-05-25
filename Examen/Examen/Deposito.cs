@@ -24,10 +24,16 @@ namespace Deposito
     /// </summary>
     class Deposito
     {
+        /// <summary>
+        /// He aplicado el estilo PasCal a las siguientes variables y he modificado el nombre de las cantidades 
+        /// máximas <paramref name="CantidadMaximaAgua"></paramref> y <paramref name="CantidadMaximaPienso">, junto a que también he cambiado
+        /// el nombre 'decimal' del documento inicial por 'double' que es la manera correcta para ".cs"</paramref>
+        /// <remarks>Los niveles no deberán superar las cantidades máximas proporcionadas.</remarks>
+        /// </summary>
         private double NivelDeAgua;
         private double NivelDePienso;
-        private double CantidadMaximaAgua;      //La cantidad máxima a reponer no puede superar el tamaño del DEPÓSITO DE AGUA, se comprueba antes de actualizar los niveles. 
-        private double CantidadMaximaPienso;     //La cantidad máxima a reponer no puede superar el tamaño del DEPÓSITO DE PIENSO, se comprueba antes de actualizar los niveles. 
+        private double CantidadMaximaAgua;
+        private double CantidadMaximaPienso;      
         public double Niveldeagua
         {
             get { return NivelDeAgua; }
@@ -42,7 +48,9 @@ namespace Deposito
         /// He cambiado los nombres de todas las variables unas las he cambiado a estilo PasCal para que
         /// sean más legibles y otras he modificado el nombre para saber cual es su referencia como es el caso de
         /// <paramref name="CantidadMaximaAgua"></paramref> junto a que también he cambiado el tipo de variable que estaba establecido
-        /// como 'decimal' a 'double' ya que decimal no era correcto. En referencia al ejercicio 3 aparte de cambiar 
+        /// como 'decimal' a 'double' ya que decimal no era correcto. En referencia al ejercicio 3 aparte de cambiar 'decimal' 
+        /// por 'double' como he dicho anteriormente también he utilizado la guía de estilos con las llaves los espaciados entre
+        /// operaciones y las líneas en blanco.
         /// </summary>
         /// <remarks>Tamaño del depósito de agua es de 10000 l.</remarks>
         /// <param name="CantidadAReponerDeAgua"></param>
@@ -59,7 +67,9 @@ namespace Deposito
         /// He cambiado los nombres de todas las variables unas las he cambiado a estilo PasCal para que
         /// sean más legibles y otras he modificado el nombre para saber cual es su referencia como es el caso de
         /// <paramref name="CantidadMaximaPienso"></paramref> junto a que también he cambiado el tipo de variable que estaba establecido
-        /// como 'decimal' a 'double' ya que decimal no era correcto.
+        /// como 'decimal' a 'double' ya que decimal no era correcto. En referencia al ejercicio 3 aparte de cambiar 'decimal' 
+        /// por 'double' como he dicho anteriormente también he utilizado la guía de estilos con las llaves los espaciados entre
+        /// operaciones y las líneas en blanco.
         /// </summary>
         /// <remarks>Tamaño del depósito de pienso es de 5000 kg.</remarks>
         /// <param name="CantidadAReponerDePienso"></param>
@@ -76,7 +86,9 @@ namespace Deposito
         /// He cambiado los nombres de todas las variables unas las he cambiado ha estilo PasCal para que
         /// sean más legibles y otras he modificado el nombre para saber cual es su referencia como es el caso de
         /// <paramref name="AguaRetirada"></paramref> también he cambiado el tipo de variable que estaba establecido
-        /// como 'decimal' a 'double' ya que decimal no era correcto.
+        /// como 'decimal' a 'double' ya que decimal no era correcto. En referencia al ejercicio 3 aparte de cambiar 'decimal' 
+        /// por 'double' como he dicho anteriormente también he utilizado la guía de estilos con las llaves los espaciados entre
+        /// operaciones y las líneas en blanco.
         /// </summary>
         /// <param name="CantidadARetirarDeAgua"></param>
         /// <returns> Devuelve la cantidad de agua que ha sido retirada. <paramref name="AguaRetirada"></paramref></returns>
@@ -95,7 +107,9 @@ namespace Deposito
         /// He cambiado los nombres de todas las variables unas las he cambiado ha estilo PasCal para que
         /// sean más legibles y otras he modificado el nombre para saber cual es su referencia como es el caso de
         /// <paramref name="PiensoRetirado"></paramref> también he cambiado el tipo de variable que estaba establecido
-        /// como 'decimal' a 'double' ya que decimal no era correcto.
+        /// como 'decimal' a 'double' ya que decimal no era correcto. En referencia al ejercicio 3 aparte de cambiar 'decimal' 
+        /// por 'double' como he dicho anteriormente también he utilizado la guía de estilos con las llaves los espaciados entre
+        /// operaciones y las líneas en blanco.
         /// </summary>
         /// <param name="CantidadARetirarDePienso"></param>
         /// <returns> Devuelve la cantidad de pienso que ha sido retirada. <paramref name="PiensoRetirado"></paramref> </returns>
